@@ -26,12 +26,12 @@ public class Enlace {
 
         try {  
             // db parameters  
-            String url = "jdbc:sqlite:bd/base01.bd";  
+            String url = "jdbc:sqlite:/home/frank/Documentos/Programacion/2bimestre/clase06-2bim-furaiwam/EjemploBD/bd/base01.bd";
             // create a connection to the database  
             conn = DriverManager.getConnection(url);  
             // System.out.println(conn.isClosed());
             // System.out.println("Connection to SQLite has been established.");  
-              
+              º
         } catch (SQLException e) {  
             System.out.println(e.getMessage());  
         }   
